@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/Audiophile.css" />
+    <script src="assets/js/Audiophile.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Hamburgermenu Start -->
+      <div class="hamburgermenu-container">
+        <div id="menu-icon" class="menu-icon" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+
+        <div class="logo">
+          <a href="#"><img src="assets/img/logo.svg" alt="Logo" /></a>
+        </div>
+
+        <button onclick="showBasket()">
+          <img src="assets/img/basket.svg" alt="Sepet" />
+        </button>
+
+        <dialog id="modal">
+          <div class="modalContainer">
+            <button id="closeModalPage" onclick="closeBasket()">
+              <img src="assets/img/closebutton.svg" alt="Close" width="30px" />
+            </button>
+            <div class="cart">
+              <div class="cart-items">
+                <div class="cart-item">
+                  <img src="assets/img/headphone1.jpg" alt="img" />
+                  <h4>XX99 MK II</h4>
+                  <p>$100</p>
+                  <div class="basketQuantity">
+                    <button>-</button>
+                    <p>0</p>
+                    <button>+</button>
+                  </div>
+                </div>
+                <div class="cart-item">
+                  <img src="assets/img/headphone1.jpg" alt="img" />
+                  <h4>XX99 MK II</h4>
+                  <p>$100</p>
+                  <div class="basketQuantity">
+                    <button>-</button>
+                    <p>0</p>
+                    <button>+</button>
+                  </div>
+                </div>
+              </div>
+              <div class="cart-total">
+                <h3>Total</h3>
+                <h4>$5,396</h4>
+              </div>
+              <a href="checkOut.html"
+                ><button id="checkOut">CHECKOUT</button></a
+              >
+            </div>
+          </div>
+        </dialog>
+
+        <div id="menu-links" class="menu-links">
+          <a href="index.html">Home</a>
+          <a href="headphones.html">Headphones</a>
+          <a href="speakers.html">Speakers</a>
+          <a href="earphones.html">Earphones</a>
+        </div>
+      </div>
+      <!-- Hamburgermenu End -->
+
+      <div class="containerHeadphonesDetails">
+        <a id="goBack" href="headphones.html">Go Back</a>
+
+        <div class="headphones">
+          <div class="headphones-item item">
+            <img src="assets/img/zx9.svg" alt="" />
+            <h3>NEW PRODUCT</h3>
+            <h2>ZX9 SPEAKER</h2>
+            <p>
+              Upgrade your sound system with the all new ZX9 active speaker.
+              It’s a bookshelf speaker system that offers truly wireless
+              connectivity -- creating new possibilities for more pleasing and
+              practical audio setups.
+            </p>
+            <span class="price">$4.500</span>
+            <div class="addToCartArea">
+              <input type="number" name="" id="addNumber" />
+              <button id="addToCart">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="features">
+            <h2>FEATURES</h2>
+            <h4>
+              Connect via Bluetooth or nearly any wired source. This speaker
+              features optical, digital coaxial, USB Type-B, stereo RCA, and
+              stereo XLR inputs, allowing you to have up to five wired source
+              devices connected for easy switching. Improved bluetooth
+              technology offers near lossless audio quality at up to 328ft
+              (100m). Discover clear, more natural sounding highs than the
+              competition with ZX9’s signature planar diaphragm tweeter. Equally
+              important is its powerful room-shaking bass courtesy of a 6.5”
+              aluminum alloy bass unit. You’ll be able to enjoy equal sound
+              quality whether in a large room or small den. Furthermore, you
+              will experience new sensations from old songs since it can respond
+              to even the subtle waveforms.
+            </h4>
+          </div>
+
+          <div class="inTheBox">
+            <h3>IN THE BOX</h3>
+            <ul>
+              <li>2x Speaker Unit</li>
+              <li>2x Speaker Cloth Panel</li>
+              <li>1x User Manual</li>
+              <li>1x 10m Optical Cable</li>
+            </ul>
+          </div>
+
+          <div class="detailPhotos">
+            <img src="assets/img/man10.svg" alt="" />
+            <img src="assets/img/man11.svg" alt="" />
+            <img src="assets/img/man123.svg" alt="" />
+          </div>
+
+          <div class="alsoLike">
+            <h3>YOU MAY ALSO LIKE</h3>
+
+            <div class="headphones-item">
+              <img src="assets/img/zx7.svg" alt="" />
+              <h2>ZX7 SPEAKER</h2>
+              <a href="#">SEE PRODUCT</a>
+            </div>
+
+            <div class="headphones-item">
+              <img src="assets/img/xx99.svg" alt="" />
+              <h2>XX99 MARK I</h2>
+              <a href="#">SEE PRODUCT</a>
+            </div>
+
+            <div class="headphones-item">
+              <img src="assets/img/xx59.svg" alt="" />
+              <h2>XX59</h2>
+              <a href="#">SEE PRODUCT</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="categories">
+          <div class="categories-item">
+            <img src="assets/img/headphones.svg" alt="" />
+            <h3>HEADPHONES</h3>
+            <a href="#">Shop ></a>
+          </div>
+
+          <div class="categories-item">
+            <img src="assets/img/speakers.svg" alt="" />
+            <h3>SPEAKERS</h3>
+            <a href="#">Shop ></a>
+          </div>
+
+          <div class="categories-item">
+            <img src="assets/img/earphones.svg" alt="" />
+            <h3>EARPHONES</h3>
+            <a href="#">Shop ></a>
+          </div>
+        </div>
+
+        <div class="about">
+          <img src="assets/img/manphoto.svg" alt="" />
+          <h1>
+            BRINGING YOU THE <span class="highlight">BEST </span>AUDIO GEAR
+          </h1>
+          <p>
+            Located at the heart of New York City, Audiophile is the premier
+            store for high end headphones, earphones, speakers, and audio
+            accessories. We have a large showroom and luxury demonstration rooms
+            available for you to browse and experience a wide range of our
+            products. Stop by our store to meet some of the fantastic people who
+            make Audiophile the best place to buy your portable audio equipment.
+          </p>
+        </div>
+
+        <footer>
+          <div class="footer-img">
+            <img src="assets/img/logo.svg" alt="" />
+          </div>
+
+          <div class="aFooter">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="headphones.html">Headphones</a></li>
+              <li><a href="speakers.html">Speakers</a></li>
+              <li><a href="earphones.html">Earphones</a></li>
+            </ul>
+          </div>
+
+          <div class="footerText">
+            <p>
+              Audiophile is an all in one stop to fulfill your audio needs.
+              We're a small team of music lovers and sound specialists who are
+              devoted to helping you get the most out of personal audio. Come
+              and visit our demo facility - we’re open 7 days a week.
+            </p>
+          </div>
+
+          <div class="copyRight">
+            <p>�� Copyright 2021. All rights reserved.</p>
+          </div>
+
+          <div class="social-media">
+            <a href="#"><img src="assets/img/facebook.svg" alt="Facebook" /></a>
+            <a href="#"
+              ><img src="assets/img/instagram.svg" alt="Instagram"
+            /></a>
+            <a href="#"><img src="assets/img/twitter.svg" alt="Twitter" /></a>
+          </div>
+        </footer>
+
+        <div class="social-media">
+          <a href="#"><img src="assets/img/facebook.svg" alt="Facebook" /></a>
+          <a href="#"><img src="assets/img/instagram.svg" alt="Instagram" /></a>
+          <a href="#"><img src="assets/img/twitter.svg" alt="Twitter" /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

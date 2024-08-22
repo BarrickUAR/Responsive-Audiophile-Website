@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/Audiophile.css">
+  <script src="assets/js/Audiophile.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Hamburgermenu Start -->
+    <div class="hamburgermenu-container">
+      <div id="menu-icon" class="menu-icon" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="logo">
+        <a href="index.html"><img src="assets/img/logo.svg" alt="Logo"></a>
+      </div>
+      <div class="basketSvg">
+      <button onclick="showBasket()"> <img src="assets/img/basket.svg" alt="Sepet" /></button>
+    </div>
+      <dialog id="modal">
+        <div class="modalContainer">
+            <button id="closeModalPage" onclick="closeBasket()">
+                <img src="assets/img/closebutton.svg" alt="Close" width="30px">
+            </button>
+            <div class="cart">
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <img src="assets/img/headphone1.jpg" alt="img">
+                        <h4>XX99 MK II</h4>
+                        <p>$100</p>
+                        <div class="basketQuantity">
+                            <button>-</button>
+                            <p>0</p>
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <img src="assets/img/headphone1.jpg" alt="img">
+                        <h4>XX99 MK II</h4>
+                        <p>$100</p>
+                        <div class="basketQuantity">
+                            <button>-</button>
+                            <p>0</p>
+                            <button>+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-total">
+                    <h3>Total</h3>
+                    <h4>$5,396</h4>
+                </div>
+                <a href="checkOut.html"><button id="checkOut">CHECKOUT</button></a>
+            </div>
+        </div>
+    </dialog>
+      
+
+      <div id="menu-links" class="menu-links">
+        <a href="index.html">Home</a>
+        <a href="headphones.html">Headphones</a>
+        <a href="speakers.html">Speakers</a>
+        <a href="earphones.html">Earphones</a>
+      </div>
+    </div>
+    <!-- Hamburgermenu End -->
+
+    <div class="hero">
+
+      <div class="heroTexts">
+        <h3>NEW PRODUCT</h3>
+        <h1>XX99 Mark II Headphones</h1>
+        <p>Experience natural, lifelike audio and exceptional build quality
+          made for the passionate music enthusiast.
+        </p>
+      </div>
+
+      <a class="seeProductHeader" href="#">See Product</a>
+
+    </div>
+
+    <div class="categories">
+
+      <a href="headphones.html">
+        <div class="categories-item">
+          <img src="assets/img/headphones.svg" alt="">
+          <h3>HEADPHONES</h3>
+          Shop >
+      </a>
+    </div>
+
+    <a href="speakers.html">
+      <div class="categories-item">
+        <img src="assets/img/speakers.svg" alt="">
+        <h3>SPEAKERS</h3>
+        Shop >
+    </a>
+  </div>
+
+  <a href="earphones.html">
+    <div class="categories-item">
+      <img src="assets/img/earphones.svg" alt="">
+      <h3>EARPHONES</h3>
+      Shop >
+  </a>
+  </div>
+
+  </div>
+
+  <div class="products">
+
+    <div class="product-item1">
+      <img src="assets/img/zx9speaker.svg" alt="">
+
+      <h3>ZX9 SPEAKER</h3>
+      <P>Upgrade to premium speakers
+        that are phenomenally built to deliver truly remarkable sound.</P>
+      <a class="seeProduct1" href="speakerDetail.html">See Product</a>
+    </div>
+
+    <div class="product-item2">
+      <div class="product-item2-text">
+        <h3>ZX7 SPEAKER</h3>
+        <a class="seeProduct2" href="speakerDetail2.html">See Product</a>
+      </div>
+    </div>
+
+    <div class="product-item3-img">
+      <img src="assets/img/yx1earphone.svg" alt="">
+    </div>
+
+    <div class="product-item3">
+      <h3>YX1 EARPHONES</h3>
+      <a class="seeProduct3" href="earphoneDetail.html">See Product</a>
+    </div>
+
+  </div>
+
+
+  <div class="about">
+    <img src="assets/img/manphoto.svg" alt="">
+    <h1>BRINGING YOU THE <span class="highlight">BEST </span>AUDIO GEAR</h1>
+    <p>Located at the heart of New York City,
+      Audiophile is the premier store for high
+      end headphones, earphones, speakers,
+      and audio accessories. We have a large
+      showroom and luxury demonstration rooms
+      available for you to browse and experience
+      a wide range of our products. Stop by our store
+      to meet some of the fantastic people who make Audiophile
+      the best place to buy your portable audio equipment.</p>
+  </div>
+
+  <footer>
+    <div class="footer-img">
+      <img src="assets/img/logo.svg" alt="">
+    </div>
+
+    <div class="aFooter">
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="headphones.html">Headphones</a></li>
+        <li><a href="speakers.html">Speakers</a></li>
+        <li><a href="earphones.html">Earphones</a></li>
+      </ul>
+    </div>
+
+    <div class="footerText">
+      <p>Audiophile is an all in one stop to fulfill your audio needs.
+        We're a small team of music lovers and sound specialists
+        who are devoted to helping you get the most out of personal audio.
+        Come and visit our demo facility - we’re open 7 days a week.</p>
+    </div>
+
+    <div class="copyRight">
+      <p>�� Copyright 2021. All rights reserved.</p>
+    </div>
+
+
+    <div class="social-media">
+      <a href="#"><img src="assets/img/facebook.svg" alt="Facebook"></a>
+      <a href="#"><img src="assets/img/instagram.svg" alt="Instagram"></a>
+      <a href="#"><img src="assets/img/twitter.svg" alt="Twitter"></a>
+    </div>
+
+  </footer>
+
+  <div class="social-media">
+    <a href="#"><img src="assets/img/facebook.svg" alt="Facebook"></a>
+    <a href="#"><img src="assets/img/instagram.svg" alt="Instagram"></a>
+    <a href="#"><img src="assets/img/twitter.svg" alt="Twitter"></a>
+  </div>
+
+  </div>
+</body>
+
+</html>
