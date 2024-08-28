@@ -1,252 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/Audiophile.css" />
-    <script src="assets/js/Audiophile.js" defer></script>
-  </head>
 
-  <body>
-    <div class="container">
-      <!-- Hamburgermenu Start -->
-      <div class="hamburgermenu-container">
-        <div id="menu-icon" class="menu-icon" onclick="toggleMenu()">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/Audiophile.css" />
+  <script src="assets/js/Audiophile.js" defer></script>
+</head>
 
-        <div class="logo">
-          <a href="#"><img src="assets/img/logo.svg" alt="Logo" /></a>
-        </div>
-
-        <div class="cart">
-          <a href="#"><img src="assets/img/basket.svg" alt="Sepet" /></a>
-        </div>
-
-        <div id="menu-links" class="menu-links">
-          <a href="index.html">Home</a>
-          <a href="headphones.html">Headphones</a>
-          <a href="speakers.html">Speakers</a>
-          <a href="earphones.html">Earphones</a>
-        </div>
+<body>
+  <div class="container">
+    <!-- Hamburgermenu Start -->
+    <div class="hamburgermenu-container">
+      <div id="menu-icon" class="menu-icon" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
       </div>
-      <!-- Hamburgermenu End -->
 
-      <div class="containerHeadphonesDetails">
-        <a id="goBack" href="headphones.html">Go Back</a>
+      <div class="logo">
+        <a href="#"><img src="assets/img/logo.svg" alt="Logo" /></a>
+      </div>
 
-        <!-- modal start -->
+      <div class="cart">
+        <a href="#"><img src="assets/img/basket.svg" alt="Sepet" /></a>
+      </div>
 
-        <dialog id="checkout-modal">
-          
-          <div class="checkout-modal-container">
-            <div class="order">
-              <div class="order-items">
-                <div class="order-item">
-                  <img src="assets/img/okay.svg" alt="" />
+      <div id="menu-links" class="menu-links">
+        <a href="index.html">Home</a>
+        <a href="headphones.html">Headphones</a>
+        <a href="speakers.html">Speakers</a>
+        <a href="earphones.html">Earphones</a>
+      </div>
+    </div>
+    <!-- Hamburgermenu End -->
 
-                  <div class="orderContainer">
-                    <h3>THANK YOU FOR YOUR ORDER</h3>
-                    <p>You will receive an email confirmation shortly.</p>
-                  </div>
+    <div class="containerHeadphonesDetails">
+      <a id="goBack" href="headphones.html">Go Back</a>
+
+      <!-- modal start -->
+
+      <dialog id="checkout-modal">
+
+        <div class="checkout-modal-container">
+          <div class="order">
+            <div class="order-items">
+              <div class="order-item">
+                <img src="assets/img/okay.svg" alt="" />
+
+                <div class="orderContainer">
+                  <h3>THANK YOU FOR YOUR ORDER</h3>
+                  <p>You will receive an email confirmation shortly.</p>
                 </div>
+              </div>
 
-                <div class="orderTop">
-                  <div class="cart-image">
-                    <img src="assets/img/headphone1.svg" width="32px" alt="" />
-                  </div>
-                  <div class="order-total">
-                    <h3>XX99 MK II</h3>
-                    <h4>$ 2,999</h4>
-                  </div>
-                  <div class="quanity">
-                    <span><p>x1</p></span>
-                  </div>
-
+              <div class="orderTop">
+                <div class="cart-image">
+                  <img src="assets/img/headphone1.svg" width="32px" alt="" />
                 </div>
-                  <div class="orderBottom">
-                    <h2>GRAND TOTAL</h2>
-
-                    <h3>$ 5,446</h3>
-                  </div>
-                <a class="pay-button" href="index.html">BACK TO HOME</a>
-              </div>
-            </div>
-          </div>
-        </dialog>
-
-        <!-- modal end -->
-
-        <form>
-          <div class="formTexts">
-            <h1>CHECKOUT</h1>
-            <h3 class="billingDetails">BILLING DETAILS</h3>
-          </div>
-
-          <div class="Details">
-            <p>Name</p>
-            <input type="text" name="name" placeholder="Alexai Ward" required />
-
-            <p>Email</p>
-            <input type="email" placeholder="alexei@mail.com" required />
-
-            <p>Phone Number</p>
-            <input
-              type="tel"
-              name="phone"
-              placeholder="+1 202-555-0136"
-              required
-            />
-          </div>
-
-          <div class="Shipping-info">
-            <h1>SHIPPING INFO</h1>
-            <p>Your Address</p>
-            <input
-              type="text"
-              name="address"
-              placeholder="1137 Williams Avenue"
-              required
-            />
-
-            <p>ZIP CODE</p>
-            <input type="text" name="zipcode" placeholder="10001" required />
-
-            <p>City</p>
-            <input
-              type="text"
-              name="city"
-              placeholder="United States"
-              required
-            />
-          </div>
-
-          <div class="Payment-details">
-            <h1>PAYMENT DETAILS</h1>
-            <p>Payment Method</p>
-
-            <div class="paymentMethod">
-              <div class="radioPayment">
-                <p>
-                  <input type="radio" name="e-Money" id="eMoney" required />
-                  e-Money
-                </p>
-              </div>
-              <div class="radioPayment">
-                <p>
-                  <input type="radio" name="Cash" id="Cash" required /> Cash on
-                  Delivery
-                </p>
-              </div>
-            </div>
-
-            <p>e-Money Number</p>
-            <input
-              type="text"
-              name="e-MoneyNumber"
-              placeholder="1234567890"
-              required
-            />
-
-            <p>e-Money PIN</p>
-            <input
-              type="password"
-              name="e-MoneyPin"
-              placeholder="123456"
-              required
-            />
-          </div>
-        </form>
-
-        <summary>
-          <div class="checkOutSummary">
-            <div class="summary">
-              <div class="summary-items">
-                <div class="summary-item">
-                  <img src="assets/img/xx99.svg" alt="img" />
-                  <div class="summaryitem-inside">
-                    <h4>XX99 MK II</h4>
-                    <p>$100</p>
-                  </div>
-                  <div class="summary-Quanitity">
+                <div class="order-total">
+                  <h3>XX99 MK II</h3>
+                  <h4>$ 2,999</h4>
+                </div>
+                <div class="quanity">
+                  <span>
                     <p>x1</p>
-                  </div>
+                  </span>
                 </div>
-                <div class="summary-item">
-                  <img src="assets/img/zx7.svg" alt="img" />
-                  <div class="summaryitem-inside">
-                    <h4>XX99 MK II</h4>
-                    <p>$100</p>
-                  </div>
-                  <div class="summary-Quanitity">
-                    <p>x1</p>
-                  </div>
-                </div>
+
               </div>
-              <div class="summary-total">
-                <h3>TOTAL <span>$ 5,396</span></h3>
-                <h3>SHIPPING <span>$ 50</span></h3>
-                <h3>VAT (INCLUDED) <span>$ 1,079</span></h3>
+              <div class="orderBottom">
+                <h2>GRAND TOTAL</h2>
+
+                <h3>$ 5,446</h3>
               </div>
-              <div class="summary-AllTotal">
-                <h3 class="grandTotal">GRAND TOTAL <span>$ 5,446</span></h3>
-              </div>
-              <button id="pay-button">CONTINUE & PAY</button>
+              <a class="paybutton" href="index.html">BACK TO HOME</a>
             </div>
           </div>
-        </summary>
+        </div>
+      </dialog>
 
-        <footer>
-          <div class="footer-img">
-            <img src="assets/img/logo.svg" alt="" />
+      <!-- modal end -->
+
+      <form>
+        <div class="formTexts">
+          <h1>CHECKOUT</h1>
+          <h3 class="billingDetails">BILLING DETAILS</h3>
+        </div>
+
+        <div class="Details">
+          <p>Name</p>
+          <input type="text" name="name" placeholder="Alexai Ward" required />
+
+          <p>Email</p>
+          <input type="email" placeholder="alexei@mail.com" required />
+
+          <p>Phone Number</p>
+          <input type="tel" name="phone" placeholder="+1 202-555-0136" required />
+        </div>
+
+        <div class="Shipping-info">
+          <h1>SHIPPING INFO</h1>
+          <p>Your Address</p>
+          <input type="text" name="address" placeholder="1137 Williams Avenue" required />
+
+          <p>ZIP CODE</p>
+          <input type="text" name="zipcode" placeholder="10001" required />
+
+          <p>City</p>
+          <input type="text" name="city" placeholder="United States" required />
+        </div>
+
+        <div class="Payment-details">
+          <h1>PAYMENT DETAILS</h1>
+          <p>Payment Method</p>
+
+          <div class="paymentMethod">
+            <div class="radioPayment">
+              <p>
+                <input type="radio" name="e-Money" id="eMoney" required />
+                e-Money
+              </p>
+            </div>
+            <div class="radioPayment">
+              <p>
+                <input type="radio" name="Cash" id="Cash" required /> Cash on
+                Delivery
+              </p>
+            </div>
           </div>
 
-          <div class="aFooter">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="headphones.html">Headphones</a></li>
-              <li><a href="speakers.html">Speakers</a></li>
-              <li><a href="earphones.html">Earphones</a></li>
-            </ul>
-          </div>
+          <p>e-Money Number</p>
+          <input type="text" name="e-MoneyNumber" placeholder="1234567890" required />
 
-          <div class="footerText">
-            <p>
-              Audiophile is an all in one stop to fulfill your audio needs.
-              We're a small team of music lovers and sound specialists who are
-              devoted to helping you get the most out of personal audio. Come
-              and visit our demo facility - we’re open 7 days a week.
-            </p>
-          </div>
+          <p>e-Money PIN</p>
+          <input type="password" name="e-MoneyPin" placeholder="123456" required />
+        </div>
+      </form>
 
-          <div class="copyRight">
-            <p>�� Copyright 2021. All rights reserved.</p>
+      <summary>
+        <div class="checkOutSummary">
+          <div class="summary">
+            <div class="summary-items">
+              <div class="summary-item">
+                <img src="assets/img/xx99.svg" alt="img" />
+                <div class="summaryitem-inside">
+                  <h4>XX99 MK II</h4>
+                  <p>$100</p>
+                </div>
+                <div class="summary-Quanitity">
+                  <p>x1</p>
+                </div>
+              </div>
+              <div class="summary-item">
+                <img src="assets/img/zx7.svg" alt="img" />
+                <div class="summaryitem-inside">
+                  <h4>XX99 MK II</h4>
+                  <p>$100</p>
+                </div>
+                <div class="summary-Quanitity">
+                  <p>x1</p>
+                </div>
+              </div>
+            </div>
+            <div class="summary-total">
+              <h3>TOTAL <span>$ 5,396</span></h3>
+              <h3>SHIPPING <span>$ 50</span></h3>
+              <h3>VAT (INCLUDED) <span>$ 1,079</span></h3>
+            </div>
+            <div class="summary-AllTotal">
+              <h3 class="grandTotal">GRAND TOTAL <span>$ 5,446</span></h3>
+            </div>
+            <button id="continuePay">CONTINUE & PAY</button>
           </div>
+        </div>
+      </summary>
 
-          <div class="social-media">
-            <a href="#"><img src="assets/img/facebook.svg" alt="Facebook" /></a>
-            <a href="#"
-              ><img src="assets/img/instagram.svg" alt="Instagram"
-            /></a>
-            <a href="#"><img src="assets/img/twitter.svg" alt="Twitter" /></a>
-          </div>
-        </footer>
+      <footer>
+        <div class="footer-img">
+          <img src="assets/img/logo.svg" alt="" />
+        </div>
+
+        <div class="aFooter">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="headphones.html">Headphones</a></li>
+            <li><a href="speakers.html">Speakers</a></li>
+            <li><a href="earphones.html">Earphones</a></li>
+          </ul>
+        </div>
+
+        <div class="footerText">
+          <p>
+            Audiophile is an all in one stop to fulfill your audio needs.
+            We're a small team of music lovers and sound specialists who are
+            devoted to helping you get the most out of personal audio. Come
+            and visit our demo facility - we’re open 7 days a week.
+          </p>
+        </div>
+
+        <div class="copyRight">
+          <p>�� Copyright 2021. All rights reserved.</p>
+        </div>
 
         <div class="social-media">
           <a href="#"><img src="assets/img/facebook.svg" alt="Facebook" /></a>
           <a href="#"><img src="assets/img/instagram.svg" alt="Instagram" /></a>
           <a href="#"><img src="assets/img/twitter.svg" alt="Twitter" /></a>
         </div>
+      </footer>
+
+      <div class="social-media">
+        <a href="#"><img src="assets/img/facebook.svg" alt="Facebook" /></a>
+        <a href="#"><img src="assets/img/instagram.svg" alt="Instagram" /></a>
+        <a href="#"><img src="assets/img/twitter.svg" alt="Twitter" /></a>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
