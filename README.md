@@ -1,4 +1,4 @@
-
+<h1 align="left">Merhabalar! 👋</h1>
 
 ###
 
@@ -26,17 +26,14 @@
 
 <p align="left">Audiophile Web Sitesi<br><br>Şu anda geliştirme aşamasında olan Audiophile, kulaklık ve hoparlör satışına yönelik bir e-ticaret platformu olarak tasarlanıyor. HTML, CSS ve JavaScript kullanarak responsive bir tasarım oluşturuyorum. Modern ve kullanıcı dostu bir alışveriş deneyimi sunmayı hedefliyorum.</p>
 
+###![Desktop](https://github.com/user-attachments/assets/4ddce664-160e-40d5-a911-8b012683e9ed)
+
+
+
+
 ###
 
-<div align="center">
-  <img height="200" src="![Desktop](https://github.com/user-attachments/assets/4e84493e-0bd4-466d-895c-6857dbbe6032)<h1 align="left">Merhabalar! 👋</h1> />
-</div>
+![mobile](https://github.com/user-attachments/assets/13c14cad-92c0-4f9a-a4f0-f5b5c262ad78)
 
-###
-
-<div align="center">
-  <img height="200" src=" ![mobile](https://github.com/user-attachments/assets/5f071aa5-d839-4b88-9c87-1d84f391ba1f)
- "  />
-</div>
 
 ###
