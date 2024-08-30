@@ -27,22 +27,21 @@ function closeBasket() {
 
 // modal 2
 
-document.addEventListener('DOMContentLoaded', function() {
-  const modal = document.getElementById('checkout-modal');
-  const openModalButton = document.getElementById('pay-button');
-  const closeModalButton = document.getElementById('close-checkout-modal');
+document.addEventListener("DOMContentLoaded", function () {
+  const modal = document.getElementById("checkout-modal");
+  const openModalButton = document.getElementById("pay-button");
+  const closeModalButton = document.getElementById("close-checkout-modal");
 
   // Modal'ı aç
-  openModalButton.addEventListener('click', function() {
-      modal.showModal();
+  openModalButton.addEventListener("click", function () {
+    modal.showModal();
   });
 
   // Modal'ı kapat
-  closeModalButton.addEventListener('click', function() {
-      modal.close();
+  closeModalButton.addEventListener("click", function () {
+    modal.close();
   });
 });
 
 
 // modal end
-

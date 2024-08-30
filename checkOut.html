@@ -45,19 +45,16 @@
       <!-- modal start -->
 
       <dialog id="checkout-modal">
-
         <div class="checkout-modal-container">
           <div class="order">
             <div class="order-items">
               <div class="order-item">
                 <img src="assets/img/okay.svg" alt="" />
-
                 <div class="orderContainer">
                   <h3>THANK YOU FOR YOUR ORDER</h3>
                   <p>You will receive an email confirmation shortly.</p>
                 </div>
               </div>
-
               <div class="orderTop">
                 <div class="cart-image">
                   <img src="assets/img/headphone1.svg" width="32px" alt="" />
@@ -71,11 +68,9 @@
                     <p>x1</p>
                   </span>
                 </div>
-
               </div>
               <div class="orderBottom">
                 <h2>GRAND TOTAL</h2>
-
                 <h3>$ 5,446</h3>
               </div>
               <a class="paybutton" href="index.html">BACK TO HOME</a>
@@ -83,6 +78,7 @@
           </div>
         </div>
       </dialog>
+
 
       <!-- modal end -->
 
@@ -92,57 +88,96 @@
           <h3 class="billingDetails">BILLING DETAILS</h3>
         </div>
 
-        <div class="Details">
-          <p>Name</p>
-          <input type="text" name="name" placeholder="Alexai Ward" required />
+        <div class="Shipping-Area">
 
-          <p>Email</p>
-          <input type="email" placeholder="alexei@mail.com" required />
-
-          <p>Phone Number</p>
-          <input type="tel" name="phone" placeholder="+1 202-555-0136" required />
-        </div>
-
-        <div class="Shipping-info">
-          <h1>SHIPPING INFO</h1>
-          <p>Your Address</p>
-          <input type="text" name="address" placeholder="1137 Williams Avenue" required />
-
-          <p>ZIP CODE</p>
-          <input type="text" name="zipcode" placeholder="10001" required />
-
-          <p>City</p>
-          <input type="text" name="city" placeholder="United States" required />
-        </div>
-
-        <div class="Payment-details">
-          <h1>PAYMENT DETAILS</h1>
-          <p>Payment Method</p>
-
-          <div class="paymentMethod">
-            <div class="radioPayment">
-              <p>
-                <input type="radio" name="e-Money" id="eMoney" required />
-                e-Money
-              </p>
+          <div class="Details">
+            <div class="NameAndEmail">
+              <p>Name</p>
+              <input type="text" name="name" placeholder="Alexai Ward" required />
+              <p>Email</p>
+              <input type="email" placeholder="alexei@mail.com" required />
             </div>
-            <div class="radioPayment">
-              <p>
-                <input type="radio" name="Cash" id="Cash" required /> Cash on
-                Delivery
-              </p>
+            <div class="PhoneNumberArea">
+              <p>Phone Number</p>
+              <input type="tel" name="phone" placeholder="+1 202-555-0136" required />
             </div>
+
           </div>
 
-          <p>e-Money Number</p>
-          <input type="text" name="e-MoneyNumber" placeholder="1234567890" required />
+          <div class="Shipping-info">
 
-          <p>e-Money PIN</p>
-          <input type="password" name="e-MoneyPin" placeholder="123456" required />
+            <div class="Shippinginfo-Area">
+
+              <h1>SHIPPING INFO</h1>
+
+              <div class="AddresArea">
+                <p>Your Address</p>
+                <input type="text" name="address" placeholder="1137 Williams Avenue" required />
+              </div>
+
+
+              <div class="ZipAndCityArea">
+                <div class="Zip">
+                  <p>ZIP CODE</p>
+                  <input type="text" name="zipcode" placeholder="10001" required />
+
+                </div>
+
+                <div class="City">
+                  <p>City</p>
+                  <input type="text" name="city" placeholder="United States" required />
+
+                </div>
+
+              </div>
+
+              <p>Country</p>
+              <input type="text" name="country" placeholder="United States" required />
+            </div>
+
+          </div>
+
+          <div class="Payment-details">
+            <h1>PAYMENT DETAILS</h1>
+            <p>Payment Method</p>
+
+            <div class="paymentMethod">
+
+              <div class="RadioArea">
+                <div class="radioPayment">
+                  <p>
+                    <input type="radio" name="e-Money" id="eMoney" required />
+                    e-Money
+                  </p>
+                </div>
+                <div class="radioPayment">
+                  <p>
+                    <input type="radio" name="Cash" id="Cash" required /> Cash on
+                    Delivery
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="PaymentOption">
+              <div class="EmoneyNumber">
+                <p>e-Money Number</p>
+                <input type="text" name="e-MoneyNumber" placeholder="1234567890" required />
+              </div>
+              <div class="EmoneyPin">
+                <p>e-Money PIN</p>
+                <input type="password" name="e-MoneyPin" placeholder="123456" required />
+              </div>
+            </div>
+
+
+          </div>
         </div>
       </form>
 
       <summary>
+        <h1>Summary</h1>
         <div class="checkOutSummary">
           <div class="summary">
             <div class="summary-items">
@@ -173,10 +208,11 @@
               <h3>VAT (INCLUDED) <span>$ 1,079</span></h3>
             </div>
             <div class="summary-AllTotal">
-              <h3 class="grandTotal">GRAND TOTAL <span>$ 5,446</span></h3>
+              <h3 class="grandTotal">GRAND TOTAL <span>$ 5,446</span> </h3>
             </div>
-            <button id="continuePay">CONTINUE & PAY</button>
+            <button id="pay-button">CONTINUE & PAY</button>
           </div>
+
         </div>
       </summary>
 
@@ -219,6 +255,7 @@
         <a href="#"><img src="assets/img/instagram.svg" alt="Instagram" /></a>
         <a href="#"><img src="assets/img/twitter.svg" alt="Twitter" /></a>
       </div>
+
     </div>
   </div>
 </body>
