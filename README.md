@@ -1,4 +1,4 @@
-<h1 align="left">Merhabalar! 👋</h1>
+![Desktop](https://github.com/user-attachments/assets/4e84493e-0bd4-466d-895c-6857dbbe6032)<h1 align="left">Merhabalar! 👋</h1>
 
 ###
 
@@ -29,13 +29,15 @@
 ###
 
 <div align="center">
-  <img height="200" src="![Desktop](https://github.com/user-attachments/assets/ba6b863c-6825-43ef-81a7-4a62c15ac628)"  />
+  <img height="200" src="![Desktop](https://github.com/user-attachments/assets/9e26c390-2cbe-4883-bb32-5cbf6ff196a5)
+"  />
 </div>
 
 ###
 
 <div align="center">
-  <img height="200" src="![mobile](https://github.com/user-attachments/assets/2030f03a-52a4-4aa2-ae2b-02ed01377635)"  />
+  <img height="200" src=" ![mobile](https://github.com/user-attachments/assets/5f071aa5-d839-4b88-9c87-1d84f391ba1f)
+ "  />
 </div>
 
 ###
