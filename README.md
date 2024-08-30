@@ -32,8 +32,8 @@
 
 
 ###
-
+<p align="left">
 ![mobile](https://github.com/user-attachments/assets/13c14cad-92c0-4f9a-a4f0-f5b5c262ad78)
-
+</p>
 
 ###
