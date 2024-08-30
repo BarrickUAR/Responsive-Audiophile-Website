@@ -1,4 +1,4 @@
-![Desktop](https://github.com/user-attachments/assets/4e84493e-0bd4-466d-895c-6857dbbe6032)<h1 align="left">Merhabalar! 👋</h1>
+
 
 ###
 
@@ -29,8 +29,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="![Desktop](https://github.com/user-attachments/assets/9e26c390-2cbe-4883-bb32-5cbf6ff196a5)
-"  />
+  <img height="200" src="![Desktop](https://github.com/user-attachments/assets/4e84493e-0bd4-466d-895c-6857dbbe6032)<h1 align="left">Merhabalar! 👋</h1> />
 </div>
 
 ###
